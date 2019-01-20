@@ -1,0 +1,21 @@
+Install python 2.X
+navigate to the folder and install all the dependencies
+
+- pip install -r requirements.txt
+Navigate to TCORAFSpreedSheetAccess.py and run.
+
+TCORAFSpreedSheetAccess is the main file to be used.
+
+
+Main things to keep in mind.
+
+
+jira user name and password-
+userName = ''
+password = ''
+
+to give access to the google sheet you will need to share the sheet with an email ID
+
+the client_secret.json contains all the auth needed.
+
+any update on the column name or the column Letter ID will have to be updated accordingly.
